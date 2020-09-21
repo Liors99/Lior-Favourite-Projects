@@ -38,6 +38,10 @@ div.header{
     color: gray;
 }
 
+#title:hover{
+    color: white;
+}
+
 .header table{
     table-layout: fixed;
     color: white;
@@ -53,14 +57,12 @@ div.header{
 
 @media (min-width: 0px) {
     .header td{
-        font-size: 8pt;
+        font-size: 9pt;
         width: 20%;
     }
     
     .header #header_home{
         text-align: center;
-        padding-left: 0%;
-        padding-right: 0%;
         width: 20%;
     }
 }
@@ -74,8 +76,6 @@ div.header{
     
     .header #header_home{
         text-align: center;
-        padding-left: 2%;
-        padding-right: 2%;
         width: 20%;
     }
     
