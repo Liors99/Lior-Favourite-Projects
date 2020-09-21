@@ -1,0 +1,61 @@
+div.content{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 100px;
+}
+
+.content h1{
+    color: gray;
+}
+
+#skillTable table{
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16pt;
+    width: 90%;
+}
+
+#skillTable tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#skillTable tr:hover{
+    background-color: #c4c4c4;
+}
+
+#skillTable th{
+    color: white;
+    background-color: #256daf;
+    padding:8px;
+}
+
+
+#skillTable td{
+    vertical-align: middle;
+    border-bottom: 1px solid black;
+
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+
+.checkmark{
+    width: 1rem;
+    height: auto;
+}
+
+#skillTable a{
+    color: black;
+    text-decoration: none;
+
+    display:block;
+    height:100%;
+    width:100%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
