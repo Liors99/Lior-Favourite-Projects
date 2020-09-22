@@ -21,11 +21,49 @@ div.header{
     background-color: #3e4988;
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 15px;
 }
 
 .header h1{
     color: white;
+}
+
+/* Toolbar design idea is taken from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+.toolBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333c6e;
+  }
+
+.toolBar  li {
+    float: right;
+    border-left: 1px solid #bbb;
+}
+
+.toolBar li:first-child{
+    border-left: none;
+}
+
+#homeBtn{
+    float: left;
+}
+  
+.toolBar  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.toolBar li a:hover:not(.active) {
+    background-color:#262c55;
+  }
+  
+.toolBar  .active {
+    background-color: #262c55;
 }
 
 .header a{
@@ -33,70 +71,8 @@ div.header{
     color: white;
 }
 
-
-.header a:hover{
-    color: gray;
+.toolBar a{
+    font-size: 14pt;
 }
-
-#title:hover{
-    color: white;
-}
-
-.header table{
-    table-layout: fixed;
-    color: white;
-    width: 100%;
-}
-
-.header td{
-    text-align: center;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-
-@media (min-width: 0px) {
-    .header td{
-        font-size: 9pt;
-        width: 20%;
-    }
-    
-    .header #header_home{
-        text-align: center;
-        width: 20%;
-    }
-}
-
-
-@media (min-width: 768px) { 
-    .header td{
-        font-size: 12pt;
-        width: 20%;
-    }
-    
-    .header #header_home{
-        text-align: center;
-        width: 20%;
-    }
-    
-}
-
-@media (min-width: 992px) { 
-    .header td{
-        font-size: 14pt;
-        width: 15%;
-    }
-    
-    .header #header_home{
-        text-align: left;
-        padding-left: 5%;
-        padding-right: 0%;
-        width: 40%;
-    }
-}
-
-@media (min-width: 1200px) { 
-   
-} 
 
     
