@@ -4,6 +4,13 @@ div.content{
     margin-bottom: 100px;
 }
 
+#projectTitle{
+    text-align: center;
+
+    text-decoration: underline;
+    font-size: 40pt;
+}
+
 .content img{
     width: 70%;
     height: auto;
