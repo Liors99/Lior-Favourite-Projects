@@ -11,6 +11,10 @@ div.content{
     font-size: 40pt;
 }
 
+.content ul{
+    list-style: square;
+}
+
 .content img{
     width: 70%;
     height: auto;
@@ -35,4 +39,17 @@ div.content{
 
 .content li{
     font-size: 14pt;
+}
+
+.link p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.link img{
+    width: 1rem;
+    height: auto;
+    vertical-align: middle;
+
+    display: inline-block;
 }
